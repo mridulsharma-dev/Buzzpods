@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    background-color:#000000;
+
+}
+
+.navbar-brand img {
+    max-width: 60px;
+
+}
+
+.nav-link {
+    color:  #fff;
+}
+
+.nav-link:hover {
+    color:#fff;
+}
+
+.nav-link:visited {
+    color: #fff;
+}
+
+.navbar-nav {
+    gap: 30px;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+/* index page css*/
+
+
+.hero-section {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/hero\ banner.png);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    margin-bottom: 100px;
+   
+    
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.hero-section p {
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 20px 0 40px;
+}
+
+
+.white-btn {
+    background-color: #fff;
+    color: #0A0A0A;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+
+.product-container a {
+    background-color: red;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px;
+}
+
+.product-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+
+.product-card .cards {
+    flex-basis: 320px;
+    flex-grow: 1;
+}
+
+.product-card .img-fluid {
+    height: 350px;
+    width: 100%;
+}
+.product-card .cards button{
+    background-color: black;
+    border: none;
+    position:absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.product-card .cards h3 {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    color: #000000;
+}
+
+.product-card .cards p {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    color: #5A5A5A;
+
+
+}
+
+.product-card .cards h5 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    color: #0A0A0A;
+    
+
+
+}
+
+.product-card .cards{
+    position: relative;
+
+}
+.product-card .cards button{
+    position: absolute;
+    bottom: 15px;
+    right:15px
+}
+
+.product-card .cards{
+    position:relative;
+
+}
+.product-card .cards button{
+    position:absolute;
+    bottom:12px;
+    right:12px;
+    background:transparent;
+    border: solid black;
+    
+}
+
+.our-story {
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.our-story div {
+    flex-basis: 370px;
+    flex-grow: 1;
+    
+
+
+}
+.why img{
+    max-width: 60px;
+}
+.why h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.us-special .cards {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.special {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cta-banner {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/cta-banner.png);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
+
+.cta-banner h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.cta-banner p {
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 20px 0 40px;
+}
+
+.cta-banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.say {
+    margin-bottom: 80px;
+}
+
+.say h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.say-cards .cards img{
+    max-width: 60px;
+}
+.say-cards .cards {
+    text-align: center;
+}
+
+.say-cards .say-img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.say-cards h5 {
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+
+.say-cards p {
+    margin-bottom: 24px;
+}
+
+.say-cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.say-cards .cards {
+    flex-basis: 300px;
+    flex-grow: 1;
+
+}
+
+
+.newsletter {
+    padding: 100px 0;
+    background-image: url(Images/newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newsletter h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font: raleway;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.newsletter form {
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newsletter form input {
+    border: none;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    flex-basis: 80%;
+
+}
+
+.newsletter form button {
+    background-color: #0A0A0A;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    flex-basis: 20%;
+
+}
+
+footer {
+    background-color: #000000;
+    padding: 100px 0 40px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 150px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    list-style-type: none;
+    margin: 40px 0;
+
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+footer .foot {
+    color: #fff;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    margin-top: 80x;
+}
+
+/* about page css*/
+
+.about {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/432.jpg);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+
+}
+
+.about1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.our-mission {
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.our-mission div {
+    flex-basis: 350px;
+    flex-grow: 1;
+
+
+}
+
+.our-vision {
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.our-vision div {
+    flex-basis: 350px;
+    flex-grow: 1;
+
+
+}
+
+
+/* shop page css */
+
+.shop {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/shop\ banner.png);
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.shop1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*contact page css*/
+
+
+.contact {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Images/6230.jpg);
+    padding: 150px 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.contact1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.dharamshala {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.dharamshala h2 {
+    margin-bottom: 20px;
+}
+
+.dharamshala .contact-info {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    margin-bottom: 40px;
+
+}
+.contact-info img{
+    max-width: 40px;
+}
+.dharamshala .contact-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.dharamshala form label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+
+.dharamshala form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5a5a5a;
+    margin-bottom: 20px;
+}
+
+.dharamshala form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5A5A5A;
+    margin-bottom: 20px;
+    height: 250px;
+
+}
+
+.dharamshala form button {
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    display: block;
+    margin-left: auto;
+}
+
+.dharamshala .contact-col {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+/* card page css */
+
+.shop-cart-cards .cart-img{
+    position: relative;
+    max-width: 150px;
+    }
+    .shop-cart-cards .cart-img input{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .shopping-cart {
+        margin-bottom: 100px;
+    }
+    .shopping-cart h2{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        font-weight: 650;
+    }
+    .shop-cart-cards h3{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .shop-cart-cards p{
+        columns: #fff;
+    }
+    .shop-cart-cards h5{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .shop-cart-cards .shop-cards{
+        border: 1px solid #fff;
+        padding: 12px;
+        display: flex;
+        gap: 40px;
+        position: relative;
+        flex-grow: 1;
+    }
+    .shop-cart-cards .shop-cards button{
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+    .shop-cart-cards .cart-info{
+        display: flex;
+        flex-direction: column;
+     justify-content: space-between;
+    
+    }
+    .cart-subtotal{
+        border: 1px solid #fff;
+        padding: 12px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .cart-subtotal .subtotal-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .payment-btn{
+        background-color:red;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        display: block;
+        width: 100%;
+    }
+    .shop-cart-cards{
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .like h2{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        font-weight: 650;
+    }
+     .plus-icon button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom:12px;
+    right: 12px;
+    }
+     .plus-icon{
+        position: relative;
+    }
+
+    
